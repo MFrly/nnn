@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: antiquewhite;
+}
+footer {
+    background-color: brown;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+  background-color: aquamarine;
+  flex-wrap: wrap;
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 14 px;
+    min-width: 28%;
+}
+
